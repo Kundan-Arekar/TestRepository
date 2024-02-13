@@ -1,0 +1,28 @@
+pipeline {
+	agent any
+	
+	
+    stage {
+		stage('smoke-test') {
+			agent{
+				label 'node1'
+			}
+
+			steps {
+				echo 'Build started....'
+					}
+				}
+    }
+	
+	stage {
+		stage('regression-test') {
+			agent{
+				label 'node1'
+			}
+
+			steps {
+				echo 'Build started....'
+					}
+				}
+    }
+}
