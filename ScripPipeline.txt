@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	
 	
-    stage {
+    stages {
 		stage('smoke-test') {
 			agent{
 				label 'node1'
@@ -14,7 +14,7 @@ pipeline {
 				}
     }
 	
-	stage {
+	stages {
 		stage('regression-test') {
 			agent{
 				label 'node1'
