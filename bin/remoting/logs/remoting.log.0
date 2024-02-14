@@ -1,0 +1,10 @@
+Feb 14, 2024 11:36:57 AM hudson.remoting.jnlp.Main createEngine
+INFO: Setting up agent: node1
+Feb 14, 2024 11:36:57 AM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3071.v7e9b_0dc08466
+Feb 14, 2024 11:36:57 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using C:\Users\Kundan_Arekar\TestRepository\remoting as a remoting work directory
+Feb 14, 2024 11:36:57 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 14, 2024 11:36:57 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected

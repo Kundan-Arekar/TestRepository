@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+ 
+    stages {
+        stage('Checkout Code') {
+            steps {
+                git branch: 'develop', credentialsId: 'github-credentials', url: 'https://github.com/Kundan-Arekar/TestRepository.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'mvn clean install'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                // Replace this with your deployment steps
+                // This could involve copying files to a server, running a deployment script, etc.
+                sh 'echo "Deploying the application..."'
+            }
+        }
+    }
+ 
+}
