@@ -1,10 +1,1265 @@
-Feb 14, 2024 11:36:57 AM hudson.remoting.jnlp.Main createEngine
+Feb 14, 2024 3:50:44 PM hudson.remoting.jnlp.Main createEngine
 INFO: Setting up agent: node1
-Feb 14, 2024 11:36:57 AM hudson.remoting.Engine startEngine
+Feb 14, 2024 3:50:44 PM hudson.remoting.Engine startEngine
 INFO: Using Remoting version: 3071.v7e9b_0dc08466
-Feb 14, 2024 11:36:57 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+Feb 14, 2024 3:50:44 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
 INFO: Using C:\Users\Kundan_Arekar\TestRepository\remoting as a remoting work directory
-Feb 14, 2024 11:36:57 AM hudson.remoting.jnlp.Main$CuiListener status
+Feb 14, 2024 3:50:45 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: WebSocket connection open
-Feb 14, 2024 11:36:57 AM hudson.remoting.jnlp.Main$CuiListener status
+Feb 14, 2024 3:50:45 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 14, 2024 3:52:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 14, 2024 3:52:00 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 14, 2024 3:52:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 14, 2024 3:52:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 14, 2024 3:52:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 14, 2024 3:52:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 14, 2024 3:52:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 14, 2024 4:56:45 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 14, 2024 4:56:45 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 14, 2024 4:56:45 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 14, 2024 4:56:45 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 14, 2024 4:56:45 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 14, 2024 4:56:45 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 14, 2024 5:39:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 14, 2024 5:39:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 14, 2024 5:39:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 14, 2024 5:39:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 14, 2024 5:39:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 14, 2024 5:39:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 14, 2024 7:25:15 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 14, 2024 7:25:15 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 14, 2024 7:25:15 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 14, 2024 7:25:15 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 14, 2024 7:25:15 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 14, 2024 7:25:15 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 14, 2024 7:25:15 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 14, 2024 7:26:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 14, 2024 7:26:00 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 14, 2024 7:26:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 14, 2024 7:26:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 14, 2024 7:26:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 14, 2024 7:26:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 14, 2024 7:26:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 14, 2024 8:55:45 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 14, 2024 8:55:45 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 14, 2024 8:55:46 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 14, 2024 8:55:46 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 14, 2024 8:55:46 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 14, 2024 8:55:46 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 14, 2024 8:55:46 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 15, 2024 8:53:01 AM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 15, 2024 8:53:01 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 15, 2024 8:53:01 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 15, 2024 8:53:01 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 15, 2024 8:53:01 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 15, 2024 8:53:01 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 15, 2024 8:53:01 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 15, 2024 9:57:56 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 15, 2024 9:57:56 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 15, 2024 9:57:56 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 15, 2024 9:57:56 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 15, 2024 9:57:56 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 15, 2024 9:57:56 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 15, 2024 12:34:41 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 15, 2024 12:34:41 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 15, 2024 12:34:42 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 15, 2024 12:34:42 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 15, 2024 12:34:42 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 15, 2024 12:34:42 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 15, 2024 12:41:27 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 15, 2024 12:41:27 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 15, 2024 12:41:27 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 15, 2024 12:41:27 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 15, 2024 12:41:27 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 15, 2024 12:41:27 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 15, 2024 12:41:27 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 15, 2024 1:04:12 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 15, 2024 1:04:12 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 15, 2024 1:04:12 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 15, 2024 1:04:12 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 15, 2024 1:04:12 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 15, 2024 1:04:12 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 15, 2024 1:04:57 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 15, 2024 1:04:57 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 15, 2024 1:04:57 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 15, 2024 1:04:57 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 15, 2024 1:04:57 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 15, 2024 1:04:57 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 15, 2024 1:04:57 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 15, 2024 1:32:42 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 15, 2024 1:32:42 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 15, 2024 1:32:42 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 15, 2024 1:32:42 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 15, 2024 1:32:42 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 15, 2024 1:32:42 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 15, 2024 1:32:42 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 15, 2024 1:45:57 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 15, 2024 1:45:57 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 15, 2024 1:45:57 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 15, 2024 1:45:57 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 15, 2024 1:45:57 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 15, 2024 1:45:57 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 15, 2024 3:34:13 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 15, 2024 3:34:13 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 15, 2024 3:34:14 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 15, 2024 3:34:14 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 15, 2024 3:34:14 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 15, 2024 3:34:14 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 15, 2024 3:43:29 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 15, 2024 3:43:29 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 15, 2024 3:43:29 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 15, 2024 3:43:29 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 15, 2024 3:43:29 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 15, 2024 3:43:29 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 15, 2024 3:43:29 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 15, 2024 6:55:14 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 15, 2024 6:55:14 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 15, 2024 6:55:14 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 15, 2024 6:55:14 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 15, 2024 6:55:15 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 15, 2024 6:55:15 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 10:06:30 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 10:06:30 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 10:06:31 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 10:06:31 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 10:06:31 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 10:06:31 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 10:07:46 AM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 10:07:46 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 10:07:46 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 10:07:46 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 10:07:46 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 10:07:46 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 10:07:46 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 10:46:46 AM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 10:46:46 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 10:46:47 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 10:46:47 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 10:46:47 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 10:46:48 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 10:46:48 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 11:01:33 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 11:01:33 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 11:01:33 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 11:01:33 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 11:01:33 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 11:01:33 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 11:02:18 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 11:02:18 AM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 11:02:18 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 11:02:18 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 11:02:18 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 11:02:18 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 11:02:18 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 12:08:31 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 12:08:31 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 12:08:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 12:08:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 12:08:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 12:08:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 12:44:17 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 12:44:17 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 12:44:17 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 12:44:17 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 12:44:17 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 12:44:17 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 1:05:02 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 1:05:02 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 1:05:02 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 1:05:02 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 1:05:02 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 1:05:02 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 1:13:47 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 1:13:47 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 1:13:47 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 1:13:47 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 1:13:47 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 1:13:47 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 1:13:47 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 2:17:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 2:17:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 2:17:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 2:17:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 2:17:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 2:17:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 2:33:48 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 2:33:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 2:33:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 2:33:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 2:33:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 2:33:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 2:33:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 2:34:33 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 2:34:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 2:34:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 2:34:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 2:34:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 2:34:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 2:34:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 3:03:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 3:03:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 3:03:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 3:03:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 3:03:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 3:03:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 3:07:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 3:07:03 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 3:07:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 3:07:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 3:07:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 3:07:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 3:07:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 3:43:48 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 3:43:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 3:43:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 3:43:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 3:43:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 3:43:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 3:43:48 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 4:10:03 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 4:10:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 4:10:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 4:10:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 4:10:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 4:10:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 4:10:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 4:45:49 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 4:45:49 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 4:45:49 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 4:45:49 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 4:45:49 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 4:45:49 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 5:03:04 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 5:03:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 5:03:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 5:03:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 5:03:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 5:03:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 5:03:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 5:41:19 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 5:41:19 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 5:41:19 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 5:41:19 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 5:41:19 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 5:41:19 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 5:41:19 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 5:47:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 5:47:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 5:47:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 5:47:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 5:47:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 5:47:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 6:25:19 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 6:25:19 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 6:25:19 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 6:25:19 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 6:25:19 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 6:25:19 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 7:25:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 7:25:04 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 7:25:05 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 7:25:05 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 7:25:05 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 7:25:05 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 7:36:20 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 7:36:20 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 7:36:20 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 7:36:20 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 7:36:20 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 7:36:20 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 7:36:20 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 7:55:05 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 7:55:05 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 7:55:05 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 7:55:05 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 7:55:05 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 7:55:05 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 7:55:05 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 8:07:20 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 8:07:20 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 8:07:20 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 8:07:20 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 8:07:20 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 8:07:20 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 8:07:20 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 9:58:59 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 9:59:00 PM hudson.remoting.Request$2 run
+WARNING: Failed to send back a reply to the request UserRequest:hudson.remoting.PingThread$Ping@3e3c02f
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.write0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$WriteTask.run(WindowsAsynchronousSocketChannelImpl.java:784)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implWrite(WindowsAsynchronousSocketChannelImpl.java:920)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.write(AsynchronousSocketChannelImpl.java:382)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.write(AsynchronousSocketChannelImpl.java:399)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.write(AsynchronousSocketChannel.java:582)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter.write(TransportFilter.java:122)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TaskQueueFilter$WriteTask.execute(TaskQueueFilter.java:136)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TaskQueueFilter.processTask(TaskQueueFilter.java:67)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TaskQueueFilter$WriteTask$1.failed(TaskQueueFilter.java:141)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$2.failed(TransportFilter.java:135)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$2.failed(TransportFilter.java:122)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:131)
+	at java.base/sun.nio.ch.Invoker.invokeDirect(Invoker.java:160)
+	at java.base/sun.nio.ch.Invoker.invoke(Invoker.java:188)
+	at java.base/sun.nio.ch.Invoker.invoke(Invoker.java:300)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$WriteTask.run(WindowsAsynchronousSocketChannelImpl.java:817)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implWrite(WindowsAsynchronousSocketChannelImpl.java:920)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.write(AsynchronousSocketChannelImpl.java:382)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.write(AsynchronousSocketChannelImpl.java:399)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.write(AsynchronousSocketChannel.java:582)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter.write(TransportFilter.java:122)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TaskQueueFilter$WriteTask.execute(TaskQueueFilter.java:136)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TaskQueueFilter.processTask(TaskQueueFilter.java:67)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TaskQueueFilter.write(TaskQueueFilter.java:57)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter$JdkWriter.write(ClientFilter.java:278)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.spi.Writer.write(Writer.java:62)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.core.ProtocolHandler.write(ProtocolHandler.java:496)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.core.ProtocolHandler.send(ProtocolHandler.java:251)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.core.ProtocolHandler.send(ProtocolHandler.java:246)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.core.TyrusWebSocket.send(TyrusWebSocket.java:401)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.core.TyrusWebSocket.sendPong(TyrusWebSocket.java:387)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.core.TyrusRemoteEndpoint.sendPong(TyrusRemoteEndpoint.java:455)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.core.TyrusEndpointWrapper.onPing(TyrusEndpointWrapper.java:1208)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.core.TyrusWebSocket.onPing(TyrusWebSocket.java:209)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.core.frame.PingFrame.respond(PingFrame.java:46)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.core.ProtocolHandler.process(ProtocolHandler.java:819)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.client.TyrusClientEngine$TyrusReadHandler.handle(TyrusClientEngine.java:726)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter.processRead(ClientFilter.java:204)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.Filter.onRead(Filter.java:111)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.Filter.onRead(Filter.java:113)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.Filter.onRead(Filter.java:113)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:295)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 9:59:00 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 9:59:01 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 9:59:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 9:59:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 9:59:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 9:59:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 16, 2024 10:27:40 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 16, 2024 10:27:40 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 16, 2024 10:27:40 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 16, 2024 10:27:40 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 16, 2024 10:27:40 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 16, 2024 10:27:41 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 16, 2024 10:27:41 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 18, 2024 6:46:37 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 18, 2024 6:46:37 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 18, 2024 6:46:37 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 18, 2024 6:46:37 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 18, 2024 6:46:37 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 18, 2024 6:46:37 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 18, 2024 6:46:37 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 18, 2024 6:49:52 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 18, 2024 6:49:52 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 18, 2024 6:49:53 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 18, 2024 6:49:53 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 18, 2024 6:49:53 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 18, 2024 6:49:53 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 18, 2024 6:51:38 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 18, 2024 6:51:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 18, 2024 6:51:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 18, 2024 6:51:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 18, 2024 6:51:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 18, 2024 6:51:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 18, 2024 6:51:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 18, 2024 6:52:53 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 18, 2024 6:52:53 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 18, 2024 6:52:53 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 18, 2024 6:52:53 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 18, 2024 6:52:53 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 18, 2024 6:52:53 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 18, 2024 6:52:53 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 18, 2024 7:25:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 18, 2024 7:25:38 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 18, 2024 7:25:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 18, 2024 7:25:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 18, 2024 7:25:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 18, 2024 7:25:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 18, 2024 7:25:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 18, 2024 7:36:23 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 18, 2024 7:36:23 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 18, 2024 7:36:23 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 18, 2024 7:36:23 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 18, 2024 7:36:23 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 18, 2024 7:36:23 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 18, 2024 7:36:23 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 18, 2024 8:08:38 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
+SEVERE: Connection error has occurred
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
+	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
+	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
+	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Feb 18, 2024 8:08:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Read side closed
+Feb 18, 2024 8:08:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 18, 2024 8:08:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Feb 18, 2024 8:08:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Feb 18, 2024 8:08:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: WebSocket connection open
+Feb 18, 2024 8:08:38 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connected
